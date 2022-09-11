@@ -1,0 +1,10 @@
+.navbar{
+    display: flex;
+    justify-content: center;
+    height: 4vw;
+    align-items: center;
+}
+.navbar2{
+    color: blue;
+    font-size: larger;
+}
