@@ -1,10 +1,27 @@
-.navbar{
+.navBar{
+    width: 100vw;
+    height: 40px;
+    background-color: black;
     display: flex;
-    justify-content: center;
-    height: 4vw;
     align-items: center;
+    justify-content: center;
+    border-bottom: 1px solid rgb(209, 206, 206);
 }
-.navbar2{
-    color: blue;
-    font-size: larger;
+.buttonMenu{
+    margin-left: 20px;
+    color: white;
+    background-color: red;
+    border: 0px red solid;
+}
+.tr11:hover{
+    color: red;
+
+}
+
+.logo{
+    width: 40px;
+    height: 40px;
+    margin-left: 20px;
+    background-image: url("../image/logo.png");
+    background-size: cover;
 }

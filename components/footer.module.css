@@ -1,42 +1,21 @@
-.box{
-    width: 100vw;
-    height: 50vh;
-    display: flex;
-}
-
-.text{
-    width: 60vw;
-    height: 50vh;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    /* background-color: rgb(238, 235, 235); */
-}
-
-.logo{
-    width: 100px;
-    height: 100px;
-    background-image: url("../image/logo.png");
-    background-size: cover;
-
-
-}
-.address{
-    margin-left: 10vw;
-    width: 26vw;
-    height: fit-content;
-    background-color: transparent;
-    text-align: center;
-}
 .form{
-    background-color: #006E51;
-    width: 40vw;
+    width: 50vw;
     height: 50vh;
-    display: flex;
-    
-    align-items: center;
-    justify-content: center
+    background-color: blue;
+    opacity: 1;
+    position: absolute;
+    bottom: -100vh;
+    right: 0px;
 }
-.t1{
-    color: grey;
+.footer{
+    background-color: brown;
+}
+.formuu{
+    width: 50vw;
+    height: 50vh;
+    background-color: blue;
+    opacity: 0;
+    position: absolute;
+    bottom: -100vh;
+    right: 0px;
 }
