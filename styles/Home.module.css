@@ -1,0 +1,10 @@
+.container {
+    width: 100%;
+    height: 100%;
+    aspect-ratio: inherit;
+    background-image: url("../image/bg.jpg");
+    background-size: cover;
+    background-position: center;
+    position: absolute;
+    float: left;   
+}
