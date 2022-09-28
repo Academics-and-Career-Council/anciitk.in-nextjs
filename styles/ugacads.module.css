@@ -1,0 +1,132 @@
+.body{
+    text-align: center;
+    font-family: 'Open Sans', sans-serif;
+    background-image: url("https://wallpapercave.com/wp/wp3272405.jpg");
+    background-repeat: no-repeat;
+    background-size: 100%;
+    background-attachment: fixed;
+
+  }
+
+
+
+ 
+
+.heading1{
+    display: block;
+    margin: 0% auto 0% auto;
+    padding-top: 15%;
+    padding-bottom: 2%;
+    font-size: 350%;
+    text-decoration: solid;
+    color: antiquewhite;
+    
+
+}
+
+/* .div1{ 
+    
+  background-image: url("https://wallpapercave.com/wp/wp3272405.jpg"); 
+     background-repeat: no-repeat;
+    background-size: 100%;
+    background-blend-mode: lighten;  
+     position: fixed; 
+ } */
+.para1{
+    margin: 0% 25% 0 25%;
+    font-size: 130%;
+    padding-bottom: 27%;
+    width: 50%;
+    color: #9cacb6;
+}
+
+.heading2{
+    display: inline-block;
+    margin: 2% auto 1% 0;
+    /* padding-top: 5%; */
+    font-size: 350%;
+    font-weight: bold;
+    color: black;
+    
+    font-family: 'Open Sans', sans-serif;
+    
+}
+ 
+.div2{
+  background-color: #FFFFFF; 
+  
+    
+
+}  
+
+
+.obj{
+  margin-top: 3%;
+
+}
+
+.boxes{
+  text-align: center;
+  background-color: #DFF6FF;
+  margin-left: 10%;
+  margin-right: 10%;
+  padding: 2%;
+  font-family: 'Open Sans', sans-serif;
+  font-size: 80%;
+  border-radius: 30px;
+
+}
+
+/* .btn-blue{
+  color: rgba(255,255,255);
+  font-weight: 600;
+  font-size: 1rem;
+  line-height: 1.5rem;
+  padding-top: 1rem;
+  padding-bottom: 1rem;
+  padding-left: 2rem;
+  padding-right: 2rem;
+  background-color: rgba(74,108,247);
+  border-radius: 0.375rem;
+  margin-left: 5%;
+  margin-right: 5%;
+  margin-bottom: 10%;
+  border: none;
+  font-family: 'Inter', sans-serif;
+  letter-spacing: 1px;
+  font-weight: 500;
+}
+.btn-blue:hover{
+  
+  transition-duration: 500ms;
+  cursor: pointer;
+  background-color: #3a86ff;
+}
+.btn-yellow{
+  color: rgba(255,255,255);
+  font-weight: 600;
+  font-size: 1rem;
+  line-height: 1.5rem;
+  padding-top: 1rem;
+  padding-bottom: 1rem;
+  padding-left: 2rem;
+  padding-right: 2rem;
+  background-color: rgb(243, 198, 0);
+  border-radius: 0.375rem;
+  margin-left: 5%;
+  margin-right: 5%;
+  margin-bottom: 10%;
+  border: none;
+  font-family: 'Inter', sans-serif;
+  letter-spacing: 1px;
+  font-weight: 500;
+}
+.btn-yellow:hover{
+  
+  transition-duration: 500ms;
+  cursor: pointer;
+  background-color: rgb(239, 212, 92);
+} */
+
+
+
