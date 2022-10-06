@@ -1,46 +1,67 @@
 .profileCard {
+  
   position: relative;
   overflow: hidden;
   margin-bottom: 10px;
+  width: 80%;
+  max-width: 300px;
+  margin-left: auto;
+  margin-right: auto;
 }
 .profileCard .profileImg img {
-  width: 115%;
+  width: 80%;
   height: auto;
-  border-radius: 15px 50px;
+  max-width: 300px;
+  border-radius: 5% 25%;
+  margin-left: auto;
+  margin-right: auto;
 }
+
+.bigCard {
+  width: auto;
+  height: auto;
+  max-width: 500px;
+  border-radius: 5% 25%;
+  margin-left: auto;
+  margin-right: auto;
+  background-color: #fff;
+}
+
 .profileCard:hover .profileContent::before {
+  
   transition: all 0.5s linear;
-  border-radius: 15px 10px;
+  /* border-radius: 15px 10px;
   border: 3px solid #222;
   border-right: 0px solid transparent;
-  border-bottom: 0px solid transparent;
+  border-bottom: 0px solid transparent; */
 }
 .profileCard .profileContent::before {
   content: "";
   position: absolute;
   top: 0;
   left: 0;
-  width: 50%;
-  height: 40%;
+  width: 30%;
+  height: auto;
   transform: scale(1, 1);
   transition: all 0.5s linear;
+  font-size: 1000%;
 }
-.profileCard:hover .profileContent::after {
+/* .profileCard:hover .profileContent::after {
   transition: all 0.5s linear;
-  border-radius: 15px 10px;
+  border-radius: 5% 3%;
   border: 3px solid #222;
   border-left: 0px solid transparent;
   border-top: 0px solid transparent;
   z-index: -1;
-}
-.profileCard .profileContent::after {
+} */
+/* .profileCard .profileContent::after {
   content: "";
   position: absolute;
   bottom: 0;
   right: 0;
   width: 50%;
   height: 40%;
-}
+} */
 .profileCard:hover .profileContent:before {
   top: 20px;
   left: 20px;
@@ -58,11 +79,13 @@
   width: 50%;
   height: 40%;
   transform: scale(1, 1);
-  transition: all 0.5s linear;
+  transition: all 5s linear;
   z-index: -1;
+  font-size: 100%;
 }
 .profileCard:hover .profileContent {
-  background-color: rgba(255, 255, 255, 0.4);
+  background-color: rgba(0, 0, 0, 0.5);
+  color: #fff;
 }
 /*.profileCard .profileContent::after{
     *    background-color: rgba(255,255,255,0.5);
@@ -75,33 +98,35 @@
   height: 100%;
   padding: 25% 4%;
   text-align: center;
-  border-radius: 15px 50px;
+  border-radius: 5% 25%;
   border: 0px;
+  font-size: 100%;
 }
 .profileCard .profileContent .title {
-  font-size: 18px;
-  color: #333;
+  font-size: 100%;
+  color: white;
   opacity: 0;
-  letter-spacing: 2px;
-  text-transform: uppercase;
-  transform: translateY(-100px);
-  transition: all 900ms cubic-bezier(0.68, -0.55, 0.265, 1.55) 0.2s;
+  letter-spacing: 0px;
+  text-transform: lowercase;
+  transform: translateX(-100px);
+  transition: all 900ms cubic-bezier(0.68, -0.55, 0.265, 1.55) 0.05s;
 }
 .profileCard:hover .title {
   opacity: 1;
-  transform: translateY(0);
+  transform: translateX(0);
+  font-size: 100%;
 }
 .profileCard:hover .title::after {
   content: "";
   display: block;
   width: 50%;
   margin: 10px auto;
-  border-bottom: 2px solid #222;
+  border-bottom: 2px solid #fff;
 }
 .profileCard .profileContent .title > span {
   display: block;
   margin: 5px 0;
-  font-size: 14px;
+  font-size: 90%;
   text-transform: capitalize;
 }
 .profileCard .profileContent .socialLink {
@@ -109,7 +134,7 @@
   padding: 0;
   opacity: 0;
   transform: translateY(100px);
-  transition: all 600ms cubic-bezier(0.68, -0.55, 0.265, 1.55) 0.2s;
+  transition: all 500ms cubic-bezier(0.68, -0.55, 0.265, 1.55) 0.2s;
 }
 .profileCard:hover .socialLink {
   opacity: 1;
@@ -141,12 +166,15 @@
 }
 
 .lineHeight2 {
+  font-size: 110%;
   line-height: 1.2 !important;
+  text-align: center;
 }
 
 .lineHeight1 {
   line-height: 1.1 !important;
 }
+
 
 .imageStyle {
   height: "24rem";
@@ -195,6 +223,8 @@
     padding: 0 40px;
   }
 }
+
+
 @media only screen and (max-width: 900px) {
   #services .servicesList .serviceItem {
     padding: 0 30px;
@@ -211,15 +241,17 @@
     padding: 0 15px;
   }
   #services .servicesList .icon i {
-    font-size: 5.1rem;
+    font-size: 100%;
   }
 }
 @media only screen and (max-width: 600px) {
   #services .servicesList .serviceItem {
     padding: 0 10px;
+    text-align: center;
   }
   #services .servicesList .icon i {
-    font-size: 5rem;
+    font-size: 100%;
+    text-align: center;
   }
 }
 @media only screen and (max-width: 400px) {
@@ -264,9 +296,10 @@
   clear: both;
 }
 
-/* icons
 
-.fa-facebook:before {
+/* icons */
+
+/* .fa-facebook:before {
   content: "\f09a";
 }
 
@@ -298,5 +331,8 @@
   content: "\f0e1";
 } */
 
-
+.icons{
+  background: none;
+  background-color: transparent;
+}
 

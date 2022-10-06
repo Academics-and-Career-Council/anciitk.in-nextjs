@@ -1,9 +1,9 @@
-.masterCard {
+/* .masterCard {
     position: relative;
     z-index: 0;
     width: 50%;
     aspect-ratio: 3/4.5;
-    /* background-color: black; */
+     background-color: black;
     color: white;
     max-width: 300px;
     margin-left: auto;
@@ -34,4 +34,9 @@
 .imgComp :hover {
     opacity: 50%;
 }
+ */
 
+ .container{
+    background-image: url(../public/image/bg.jpg);
+    opacity: 1;
+ }
