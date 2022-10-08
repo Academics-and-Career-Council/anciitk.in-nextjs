@@ -2,15 +2,36 @@
     width: 100vw;
     height: 100vh;
     display: flex;
+    position: fixed;
+    align-items: center
+}
+.coverH{
+    width: 100vw;
+    height: 100vh;
+    position: fixed;
+    background-color: black;
+    opacity: 0.5;
+    z-index: 1;
+
+    
 }
 .image{
-    background-image: url("../image/frontImage.jpg");
+    background-image: url("../image/frontImage1.jpg");
     background-size: cover;
     position: absolute;
-    right: 0.9vw;
-    width: 61vw;
-    height: 90vh;
+    right: 1.9vw;
+    z-index: -1;
+    
+    width: 825px;
+    height: 514px;
 }
+@media  screen and (max-width:1110px) {
+    .image{
+        width:555px;
+        height: 346px;
+    }
+}
+
 .textTitle{
     position: absolute;
     width: 40vw;
@@ -32,6 +53,6 @@
     width: 30vw;
     height: 40vh;
     color: grey;
-    font-size: x-large;
+    font-size: 1.7vw;
     text-align: center;
 }

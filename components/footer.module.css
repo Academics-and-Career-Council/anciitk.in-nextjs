@@ -1,14 +1,45 @@
+@keyframes inAnimation {
+    0%{
+        bottom: -1500px;
+    }
+    100%{
+        bottom: -979px;
+    }
+}
+
 .form{
-    width: 50vw;
+    animation-name: inAnimation;
+    animation-duration: 2s;
+    z-index: 30;
+    width: 316px;
+    opacity: 0.9;
     height: 50vh;
-    background-color: blue;
-    opacity: 1;
+    background-color:rgb(129, 127, 127);
+    
+    margin-right: 20px;
+    border-radius: 16px;
+    display: flex;
     position: absolute;
-    bottom: -100vh;
+    bottom: -979px;
+    
     right: 0px;
+    justify-content: center;
+    align-items: center;
+    color: blue !important;
 }
 .footer{
-    background-color: brown;
+    background-color: rgb(129, 127, 127);
+    height: 61px;
+    width: 98vw;
+    /* position: absolute;
+    bottom: -979px; */
+    position: relative;
+    bottom: -100vh;
+    
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    z-index: 30;
 }
 .formuu{
     width: 50vw;
@@ -16,6 +47,12 @@
     background-color: blue;
     opacity: 0;
     position: absolute;
-    bottom: -100vh;
+    bottom: -61px;
     right: 0px;
+}
+
+.buttonMenu1{
+    background-color: transparent !important;
+    border: 0px solid !important;
+    color: white !important;
 }

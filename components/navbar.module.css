@@ -1,6 +1,8 @@
 .navBar{
+    position: fixed;
+    z-index: 10000;
     width: 100vw;
-    height: 40px;
+    height: 50px;
     background-color: black;
     display: flex;
     align-items: center;
@@ -9,9 +11,12 @@
 }
 .buttonMenu{
     margin-left: 20px;
-    color: white;
-    background-color: red;
-    border: 0px red solid;
+    color: white !important;
+    background-color: black !important;
+    border: 0px  solid !important;
+}
+.buttonMenu:hover{
+    border: 1px white solid !important;
 }
 .tr11:hover{
     color: red;
@@ -19,8 +24,8 @@
 }
 
 .logo{
-    width: 40px;
-    height: 40px;
+    width: 50px;
+    height: 50px;
     margin-left: 20px;
     background-image: url("../image/logo.png");
     background-size: cover;

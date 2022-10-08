@@ -36,35 +36,18 @@ const NavBar = () => {
     
       return(<div className={styles.navBar}>
         
-        <Dropdown  overlay={menu} placement="bottomLeft"   >
-      <Button style={{
-              marginLeft: '20px',
-              color: 'white',
-              backgroundColor: 'transparent',
-              }} >bottomLeft</Button>
+    <Dropdown overlay={menu} placement="bottomLeft"  arrow >
+      <Button className={styles.buttonMenu}>Wings</Button>
     </Dropdown>
     <Dropdown overlay={menu} placement="bottomLeft" arrow >
-      <Button style={{
-              marginLeft: '20px',
-              color: 'white',
-              backgroundColor: 'transparent',
-              }}>bottomLeft</Button>
+      <Button className={styles.buttonMenu}>Portal</Button>
     </Dropdown>
     <div className={styles.logo}></div>
     <Dropdown   className={styles.buttonMenu} overlay={menu} placement="bottomLeft" arrow >
-      <Button  style={{
-              marginLeft: '20px',
-              color: 'white',
-              backgroundColor: 'transparent',
-              }}>bottomLeft</Button>
+      <Button  >Blog</Button>
     </Dropdown>
     <Dropdown  overlay={menu} placement="bottomLeft" arrow >
-      <Button style={{
-              marginLeft: '20px',
-              color: 'white',
-              backgroundColor: 'black',
-              
-            }} className={styles.buttonMenu}>bottomLeft</Button>
+      <Button  className={styles.buttonMenu}>Meet the Team</Button>
     </Dropdown>
     </div>) 
 

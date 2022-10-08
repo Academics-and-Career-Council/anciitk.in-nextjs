@@ -15,8 +15,10 @@ body {
 .timeline {
   position: relative;
   width: 100%;
+  top: 100vh;
+  z-index: 2;
   max-width: 100vw;
-  background-color: #000000;
+  background-color: cadetblue;
   margin: 0 auto;
   padding: 15px 0;
 }

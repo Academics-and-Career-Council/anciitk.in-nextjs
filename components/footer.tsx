@@ -47,19 +47,22 @@ const Footer=()=>{
        <div className={styles["form"+form1]}>
   <App1></App1></div>
   <div className={styles.footer}>
-    <Dropdown overlay={menu} placement="bottomLeft" arrow className={styles.buttonMenu}>
-    <Button>bottomLeft</Button>
+    <Dropdown overlay={menu} placement="bottomLeft" arrow className={styles.buttonMenu1}>
+    <Button>Research</Button>
   </Dropdown>
-  <Dropdown overlay={menu} placement="bottomLeft" arrow className={styles.buttonMenu}>
-    <Button>bottomLeft</Button>
+  <Dropdown overlay={menu} placement="bottomLeft" arrow >
+    <Button className={styles.buttonMenu1}>International Relation</Button>
   </Dropdown>
-  <Dropdown overlay={menu} placement="bottomLeft" arrow className={styles.buttonMenu}>
-    <Button>bottomLeft</Button>
+  <Dropdown overlay={menu} placement="bottomLeft" arrow className={styles.buttonMenu1}>
+    <Button className={styles.buttonMenu1}>Academics</Button>
   </Dropdown>
-  <Dropdown overlay={menu} placement="bottomLeft" arrow className={styles.buttonMenu}>
-    <Button>bottomLeft</Button>
+  <Dropdown overlay={menu} placement="bottomLeft" arrow className={styles.buttonMenu1}>
+    <Button className={styles.buttonMenu1}>Career Development</Button>
   </Dropdown>
-  <button className={styles["formButton"]} onClick={trrr} >display</button>
+  <Dropdown overlay={menu} placement="bottomLeft" arrow className={styles.buttonMenu1}>
+    <Button className={styles.buttonMenu1}>Meet the Team</Button>
+  </Dropdown>
+  <Button  onClick={trrr} className={styles.buttonMenu1}>Contact us</Button>
   </div>
   
   </>
