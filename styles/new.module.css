@@ -1,0 +1,68 @@
+.boxer {
+  background-color: none;
+  background-image: url('https://raw.githubusercontent.com/Academics-and-Career-Council/anciitk.in-nextjs/abhinav/public/image/bg.jpg') !important ;
+}
+
+.container {
+    display: flex;
+    flex-flow: row;
+    flex-wrap: wrap;
+    justify-content: center;
+    background-image: url('../public/image/bg.jpg');
+}
+
+.subcontainer {
+    margin: 5px;
+}
+
+@media only screen and (min-width: 1024px) {
+    .subcontainer {
+        width: 25%;
+        margin-top: 50px;
+        margin-bottom: 20px;
+        margin-left: 0px;
+        margin-right: 0px;
+    }
+  }
+
+  @media only screen and (max-width: 1024px) {
+    .subcontainer {
+        width: 25%;
+        margin-top: 50px;
+        margin-bottom: 20px;
+        margin-left: 0px;
+        margin-right: 0px;
+    }
+  }
+
+  @media only screen and (max-width: 900px) {
+    .subcontainer {
+        width: 50%;
+        margin-top: 50px;
+        margin-bottom: 20px;
+        margin-left: 0px;
+        margin-right: 0px;
+    }
+  }
+
+  @media only screen and (max-width: 600px) {
+    .subcontainer{
+        width: 75%;
+        margin-top: 25px;
+        margin-bottom: 10px;
+        margin-left: 0px;
+        margin-right: 0px;
+    }
+  }
+
+  @media only screen and (max-width: 400px) {
+    .subcontainer{
+        width: 100%;
+        margin-top: 25px;
+        margin-bottom: 10px;
+        margin-left: 0px;
+        margin-right: 0px;
+    }
+  }
+
+

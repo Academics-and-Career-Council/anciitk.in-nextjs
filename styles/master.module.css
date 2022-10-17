@@ -1,17 +1,17 @@
 .profileCard {
-  
   position: relative;
   overflow: hidden;
   margin-bottom: 10px;
-  width: 80%;
-  max-width: 300px;
+  width: 90%;
+  max-width: 340px;
   margin-left: auto;
   margin-right: auto;
 }
+
 .profileCard .profileImg img {
-  width: 80%;
+  width: 90%;
   height: auto;
-  max-width: 300px;
+  max-width: 340px;
   border-radius: 5% 25%;
   margin-left: auto;
   margin-right: auto;
@@ -20,7 +20,6 @@
 .bigCard {
   width: auto;
   height: auto;
-  max-width: 500px;
   border-radius: 5% 25%;
   margin-left: auto;
   margin-right: auto;
@@ -28,13 +27,13 @@
 }
 
 .profileCard:hover .profileContent::before {
-  
   transition: all 0.5s linear;
   /* border-radius: 15px 10px;
   border: 3px solid #222;
   border-right: 0px solid transparent;
   border-bottom: 0px solid transparent; */
 }
+
 .profileCard .profileContent::before {
   content: "";
   position: absolute;
@@ -84,7 +83,7 @@
   font-size: 100%;
 }
 .profileCard:hover .profileContent {
-  background-color: rgba(0, 0, 0, 0.5);
+  background-color: rgba(0, 0, 0, 0.7);
   color: #fff;
 }
 /*.profileCard .profileContent::after{
@@ -116,12 +115,13 @@
   transform: translateX(0);
   font-size: 100%;
 }
+
 .profileCard:hover .title::after {
   content: "";
   display: block;
   width: 50%;
   margin: 10px auto;
-  border-bottom: 2px solid #fff;
+  /* border-bottom: 2px solid #fff; */
 }
 .profileCard .profileContent .title > span {
   display: block;
