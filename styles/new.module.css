@@ -9,6 +9,8 @@
     flex-wrap: wrap;
     justify-content: center;
     background-image: url('../public/image/bg.jpg');
+    padding-bottom: 120px;
+    padding-top: 50px;
 }
 
 .subcontainer {
@@ -65,4 +67,25 @@
     }
   }
 
+  .radioG {
+    bottom: 0;
+    position: fixed;
+   display: flex;
+     flex-flow: row;
+    flex-wrap: wrap;
+    justify-content: center; 
+    width: 100%;
+    /* border: none; */
+    /* bottom:0, position:'fixed', display: 'flex',flexFlow: 'row', flexWrap: 'wrap', justifyContent:"center", width:"100%" */
+  }
 
+  .radioB {
+    text-align: center;
+    overflow:visible;
+    min-width: 140px;
+  }
+
+  .radioG .radioB {
+    -ms-flex: 1;  /* IE 10 */  
+    flex: 1;
+  }

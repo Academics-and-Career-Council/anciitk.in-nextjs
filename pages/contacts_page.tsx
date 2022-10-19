@@ -1,15 +1,8 @@
 
 import style from "../styles/new.module.css";
 import {Radio} from 'antd';
-import React, { DetailedReactHTMLElement, useState } from 'react';
+import React, { useState } from 'react';
 import Master from "../components/master";
-
-// import New from "../components/new";
-import contact from "../components/contact";
-// import style from '../styles/myCards.module.css';
-// import myFunction from "../components/myFunction";
-import back from '../public/image/bg.jpg';
-import pic from "../public/image/abhinav.jpg";
 import team from "../components/contact";
 
 export default function contacts_page (){
@@ -71,15 +64,15 @@ export default function contacts_page (){
            {tab==='5'? <div className={style.container}>{team.map(createEntry)}</div>: null}
            {tab==='6'? <div className={style.container}>{team.map(createEntry)}</div>: null}
            {tab==='7'? <div className={style.container}>{team.map(createEntry)}</div>: null}
-           <Radio.Group value={tab} onChange={e => setTab(e.target.value)} style={{bottom:'0', position:'fixed', display: 'flex',flexFlow: 'row', flexWrap: 'wrap', justifyContent:"center", width:"100%"}} size='large' buttonStyle="solid">
-           <Radio.Button value='0'>Meet The Team</Radio.Button>
-            <Radio.Button value='1'>General Secretary</Radio.Button>
-            <Radio.Button value='2'>Associate Heads</Radio.Button>
-            <Radio.Button value='3'>Career Development Wing</Radio.Button>
-            <Radio.Button value='4'>International Relations Wing</Radio.Button>
-            <Radio.Button value='5'>Research Wing</Radio.Button>
-            <Radio.Button value='6'>Academics Wing</Radio.Button>
-            <Radio.Button value='7'>Web Development Wing</Radio.Button>
+           <Radio.Group value={tab} onChange={e => setTab(e.target.value)} size='large' buttonStyle="solid" optionType="button" className={style.radioG}>
+           <Radio.Button value='0' className={style.radioB}>Meet The Team</Radio.Button>
+            <Radio.Button value='1' className={style.radioB}>Gen. Sec.</Radio.Button>
+            <Radio.Button value='2' className={style.radioB}>Associate Heads</Radio.Button>
+            <Radio.Button value='3' className={style.radioB}>Career Dev.</Radio.Button>
+            <Radio.Button value='4' className={style.radioB}>Int. Rel.</Radio.Button>
+            <Radio.Button value='5' className={style.radioB}>Research </Radio.Button>
+            <Radio.Button value='6' className={style.radioB}>Academics</Radio.Button>
+            <Radio.Button value='7' className={style.radioB}>Web Dev.</Radio.Button>
             
         </Radio.Group>
            
