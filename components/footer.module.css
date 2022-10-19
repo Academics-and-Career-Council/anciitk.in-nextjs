@@ -1,16 +1,16 @@
 @keyframes inAnimation {
     0%{
-        bottom: -1500px;
+        bottom: -260vh;
     }
     100%{
-        bottom: -979px;
+        bottom: -200vh;
     }
 }
 
 .form{
     animation-name: inAnimation;
     animation-duration: 2s;
-    z-index: 30;
+    z-index: 30000;
     width: 316px;
     opacity: 0.9;
     height: 50vh;
@@ -19,10 +19,10 @@
     margin-right: 20px;
     border-radius: 16px;
     display: flex;
-    position: absolute;
-    bottom: -979px;
-    
-    right: 0px;
+    position: relative;
+
+    bottom: -200vh;
+    left : calc(100vw - 316px);
     justify-content: center;
     align-items: center;
     color: blue !important;
@@ -30,11 +30,11 @@
 .footer{
     background-color: rgb(129, 127, 127);
     height: 61px;
-    width: 98vw;
+    width: 100vw;
     /* position: absolute;
     bottom: -979px; */
     position: relative;
-    bottom: -100vh;
+    bottom: -200vh;
     
     display: flex;
     justify-content: flex-end;
