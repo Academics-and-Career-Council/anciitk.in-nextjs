@@ -1,9 +1,12 @@
+
+
 .body{
     text-align: center;
     font-family: 'Open Sans', sans-serif;
     background-image: url("https://wallpapercave.com/wp/wp3272405.jpg");
     background-repeat: no-repeat;
-    background-size: 100%;
+    width: 100%;
+    height: auto;
     background-attachment: fixed;
 
   }
@@ -47,21 +50,37 @@
     font-size: 350%;
     font-weight: bold;
     color: black;
-    
+    text-decoration: underline 5px;
+    text-underline-offset: 15px;
     font-family: 'Open Sans', sans-serif;
     
 }
  
 .div2{
-  background-color: #FFFFFF; 
-  
-    
+  background-image: url("../image/layered-peaks-haikei.svg");
+  background-repeat: no-repeat;
+  width: 100%;
+  height: auto;
+  /* background: #11998e;  
+background: -webkit-linear-gradient(to right, #38ef7d, #11998e); 
+background: linear-gradient(to right, #38ef7d, #11998e);  */
+
+
+
+  font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+  padding-bottom: 100px;
+  padding-top: 100px;
 
 }  
 
 
 .obj{
-  margin-top: 3%;
+  width: 70%;
+  height: auto;
+  margin-left: 15%;
+  background-color: #FFFFFF;
+  border-radius: 100px;
+  
 
 }
 
@@ -77,56 +96,177 @@
 
 }
 
-/* .btn-blue{
-  color: rgba(255,255,255);
-  font-weight: 600;
-  font-size: 1rem;
-  line-height: 1.5rem;
-  padding-top: 1rem;
-  padding-bottom: 1rem;
-  padding-left: 2rem;
-  padding-right: 2rem;
-  background-color: rgba(74,108,247);
-  border-radius: 0.375rem;
-  margin-left: 5%;
-  margin-right: 5%;
-  margin-bottom: 10%;
-  border: none;
-  font-family: 'Inter', sans-serif;
-  letter-spacing: 1px;
-  font-weight: 500;
+
+.space{
+  display: inline;
+  align-items: center;
+  text-align: center; 
+  font-size:30px;
+  font-stretch:  1% 10%;
+  /* font-stretch: ultra-expanded; */
 }
-.btn-blue:hover{
+.element{
+  /* color:brown;
+  border-color: brown; */
+  display: inline;
+  margin-left: 35px;
+  margin-right: 35px;
+  /* border:0 auto; */
+  font-size:15px;
+  border-radius:3px;
+  border-color:aquamarine;
+  /* padding-top:5px;padding-right: 45px;padding-bottom:45px;padding-left: 45px; */
+  background-color:'blue';
+  background-color: aquamarine;
   
-  transition-duration: 500ms;
-  cursor: pointer;
-  background-color: #3a86ff;
+
 }
-.btn-yellow{
-  color: rgba(255,255,255);
-  font-weight: 600;
-  font-size: 1rem;
-  line-height: 1.5rem;
-  padding-top: 1rem;
-  padding-bottom: 1rem;
-  padding-left: 2rem;
-  padding-right: 2rem;
-  background-color: rgb(243, 198, 0);
-  border-radius: 0.375rem;
-  margin-left: 5%;
-  margin-right: 5%;
-  margin-bottom: 10%;
-  border: none;
-  font-family: 'Inter', sans-serif;
-  letter-spacing: 1px;
-  font-weight: 500;
+.element:hover{
+  transform: scale(1.1);
+  background-color: aquamarine;
 }
-.btn-yellow:hover{
+.layer{
+  background-image: url("../image/layered-waves-haikei.svg");
+  width: 100%;
+  height: auto;
+  background-repeat: no-repeat;
+
+  opacity: 1;
+  text-align: center;
   
-  transition-duration: 500ms;
+  align-items:center;
+  /* position:absolute; */
+  align-self: center; 
+  padding-bottom: 40%;
+  /* top:10%;bottom:10%;
+  left:10%;right:10%;
+  height:80%;
+  width:80%; */
+}
+.text{
+  position: relative;
+  display: inline;
+  top:25px;bottom: auto;
+  font-weight: 900;
+  color: rgb(43, 43, 43);
+  text-align: center;
+  font-size: 55px;
+  font-family: 'Noto Sans', sans-serif;
+  /* align */
+}
+.hr{
+  width: 15%;
+  height: 3px;border-radius: 1px;
+  margin-top:15px;
+  margin-bottom: 13px;
+  background-color:rgba(33, 215, 176, 0.958);border:none;
+}
+.comp{
+  display: inline;
+  /* margin-left:25px; */
+  /* margin-left:20px;
+  margin-right:20px; */
+}
+.drop{
+
+}
+.anchor{
+  font-size: 1px;
+}
+.tttt{
+  
+  font-stretch: 1000%;
+}
+.text2{
+  font-size: 25px;
+  font-family: 'Roboto Slab', serif;
+  color:rgba(23, 23, 23, 0.913);
+  font-stretch: ultra-expanded;
+}
+
+.div3{
+  background: #0F2027;  /* fallback for old browsers */
+background: -webkit-linear-gradient(to right, #2C5364, #203A43, #0F2027);  /* Chrome 10-25, Safari 5.1-6 */
+background: linear-gradient(to right, #2C5364, #203A43, #0F2027); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+
+
+}
+/* .btn {
+    font-family: Arial, Helvetica, sans-serif;  text-transform: uppercase;
+}  
+.btn:hover .btn-slide-show-text1 {  
+  margin-left: 65px;
+}  
+.btn_border_to_line {  
+  transition-property: all;  transition-duration: 0.6s;  transition-timing-function: ease;
+  
+}   */
+.heading3{
+  display: block;
+    margin: 0% auto 0% auto;
+    padding-top: 12%;
+    padding-bottom: 2%;
+    font-size: 350%;
+    text-decoration: solid;
+    color: antiquewhite;
+}
+
+.para3{
+  margin: 0% 25% 0 25%;
+  font-size: 130%;
+  padding-bottom: 4%;
+  width: 50%;
+  color: #9cacb6;
+}
+
+.btndiv{
+  padding-bottom: 10%;
+}
+
+
+.btn4143 {
+  padding: 10px 25px;
+  font-family: "Open sans", sans-serif;
+  font-weight: 500;
+  background: transparent;
+  outline: none !important;
   cursor: pointer;
-  background-color: rgb(239, 212, 92);
-} */
+  transition: all 0.3s ease;
+  position: relative;
+  display: inline-block;
+}
 
+.btn43 {
+  border: 2px solid rgb(255, 255, 255);
+  z-index: 1;
+  color: white;
+}
 
+.btn43:after {
+  position: absolute;
+  content: "";
+  width: 100%;
+  height: 0;
+  top: 0;
+  left: 0;
+  z-index: -1;
+  background: rgb(255, 255, 255);
+  transition: all 0.3s ease;
+}
 
+.btn43:hover {
+  color: rgb(0, 0, 0);
+}
+
+.btn43:hover:after {
+  top: auto;
+  bottom: 0;
+  height: 100%;
+}
+
+.div4{
+  background: #000000;  /* fallback for old browsers */
+background: -webkit-linear-gradient(to right, #434343, #000000);  /* Chrome 10-25, Safari 5.1-6 */
+background: linear-gradient(to right, #434343, #000000); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+
+}

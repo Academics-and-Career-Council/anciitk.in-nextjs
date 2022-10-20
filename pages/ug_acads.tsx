@@ -1,5 +1,152 @@
+import React from 'react';
 import styles from "../styles/timeline_ug.module.css"
 import sty from "../styles/ugacads.module.css"
+import 'antd/dist/antd.css';
+import { Button, Dropdown, Menu, Space } from 'antd';
+import { builtinModules } from 'module';
+import { callbackify } from 'util';
+
+
+
+const portals = (
+  <Menu
+    items={[
+      {
+        key: '1',
+        label: (
+          <a target="_blank" rel="noopener noreferrer" href="https://pingala.iitk.ac.in/IITK-0/login">
+            Pingala
+          </a>
+        ),
+      },
+      {
+        key: '2',
+        label: (
+          <a target="_blank" rel="noopener noreferrer" href="https://www.aliyun.com">
+            2nd menu item
+          </a>
+        ),
+      },
+      {
+        key: '3',
+        label: (
+          <a target="_blank" rel="noopener noreferrer" href="https://www.luohanacademy.com">
+            3rd menu item
+          </a>
+        ),
+      },
+    ]}
+  />
+);
+const organisations = (
+  <Menu
+    items={[
+      {
+        key: '1',
+        label: (
+          <a target="_blank" rel="noopener noreferrer" href="#">
+            Students' Senate Nominees to DUGC
+          </a>
+        ),
+      },
+      {
+        key: '2',
+        label: (
+          <a target="_blank" rel="noopener noreferrer" href="#">
+            Students' Senate Nominees to DUGC
+          </a>
+        ),
+      },
+      {
+        key: '3',
+        label: (
+          <a target="_blank" rel="noopener noreferrer" href="#">
+            List of HODs
+          </a>
+        ),
+      },
+    ]}
+  />
+);
+const temp=(
+  <Menu items={[]}></Menu>
+)
+const Manuals = (
+  <Menu
+    items={[
+      {
+        key: '1',
+        label: (
+          <a target="_blank" rel="noopener noreferrer" href="#">
+            UG Manual
+          </a>
+        ),
+      },
+      {
+        key: '2',
+        label: (
+          <a target="_blank" rel="noopener noreferrer" href="#">
+            PG Manual
+          </a>
+        ),
+      },
+      {
+        key: '3',
+        label: (
+          <a target="_blank" rel="noopener noreferrer" href="#">
+            Course Template 
+          </a>
+        ),
+      },
+    ]}
+  />
+);
+
+const Calender = (
+  <Menu
+    items={[
+      {
+        key: '1',
+        label: (
+          <a target="_blank" rel="noopener noreferrer" href="#">
+            Exam schedule
+          </a>
+        ),
+      },
+      {
+        key: '2',
+        label: (
+          <a target="_blank" rel="noopener noreferrer" href="#">
+            Academic Calender
+          </a>
+        ),
+      },
+    //   {
+    //     key: '3',
+    //     label: (
+    //       <a target="_blank" rel="noopener noreferrer" href="#">
+    //         Course Template (B.Tech, BS, Dual Degree)
+    //       </a>
+    //     ),
+    //   },
+    ]}
+  />
+);
+
+function Links(props: any) {
+  return (
+    // <div >
+    <div className={sty.comp}>
+      <Space direction="vertical">
+        <Space wrap>
+          <Dropdown overlay={props.data} placement="bottom" className={sty.drop}>
+            <Button className={sty.element}>{props.name}</Button>
+          </Dropdown>
+        </Space>
+      </Space>
+    </div>
+  )
+};
 
 const UgAcads= ()=> {
   return (
@@ -11,22 +158,20 @@ const UgAcads= ()=> {
       
       </div>
       <div><p className={sty.para1}>The UG/PG Academics Wing takes up the responsibility of the academics related work of the Academic and Career Council. It acts as an interface between the institute policy makers and the students on matters related to academia. The wing endeavors to protect the students’ academic interests and is the voice of the student body on this front.</p></div>
-      {/* <div className="footer">
-       <button className="btn-yellow"> Pingala </button>
-       <button className="btn-blue"> UG Manual </button>
-       <button className="btn-blue"> PG Manual </button>
-      </div> */}
+    
     </div>
-    <div className={sty.div2}><h1 className={sty.heading2}>Objectives</h1>
+    <div className={sty.div2}>
+      <div className={sty.obj}>
+      <h1 className={sty.heading2}>Objectives</h1>
     
     
     <script>var mountNode = document.getElementById('container');</script>
-    {/* <div className="obj"><Objective /></div> */}
+  
 
     <div className={styles.timeline}>
   <div className={styles.container+" "+styles.left}>
     
-    <i className={styles.icon+" "+styles.fa+" "+styles.fahome}></i>
+    <i className={styles.icon+" "+styles.fa+" "+styles.contact}></i>
     <div className={styles.content}>
       {/* <h1 className={styles.h1T}>UG/PG Academics</h1> */}
       <p>
@@ -36,7 +181,7 @@ const UgAcads= ()=> {
   </div>
   <div className={styles.container+" "+styles.right}>
     
-    <i className={styles.icon+" "+styles.fa+" "+styles.fagift}></i>
+    <i className={styles.icon+" "+styles.fa+" "+styles.coordinate}></i>
     <div className={styles.content}>
       {/* <h1 className={styles.h1T}>Research</h1> */}
       <p>
@@ -46,7 +191,7 @@ const UgAcads= ()=> {
   </div>
   <div className={styles.container+" "+styles.left}>
     
-    <i className={styles.icon+" "+styles.fa+" "+styles.fauser}></i>
+    <i className={styles.icon+" "+styles.fa+" "+styles.rules}></i>
     <div className={styles.content}>
       {/* <h1 className={styles.h1T}>International Relation</h1> */}
       <p>
@@ -56,7 +201,7 @@ const UgAcads= ()=> {
   </div>
   <div className={styles.container+" "+styles.right}>
     
-    <i className={styles.icon+" "+styles.fa+" "+styles.farunning}></i>
+    <i className={styles.icon+" "+styles.fa+" "+styles.gather}></i>
     <div className={styles.content}>
       {/* <h1 className={styles.h1T}>Career Development</h1> */}
       <p>
@@ -85,12 +230,29 @@ const UgAcads= ()=> {
     </div>
   </div> */}
 </div>
+</div>
+</div>
     
-    </div>
-    </body>
+<div className={sty.layer}>
+        <div className={sty.text}>Quick links</div>
+        <hr className={sty.hr}></hr>
+        <div className={sty.text2} >Here are the links for the purpose of navigation and<br/> more data cab be written here so as to make it look good <br/>this sections is divided into multiple links</div>
+        <div className={sty.tttt}>
+          <Links data={portals} name={"Portals"} />
+          <Links data={organisations} name={"organisations"} />
+          <Links data={Manuals} name={"Manuals"} />
+          <Links data={Calender} name={"calender"} />
+        </div>
+        <div className="test"></div>
+      </div>
+
+
+
+
+</body>
     
     
-    </>
+</>
   )
 }
 
