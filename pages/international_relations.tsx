@@ -6,7 +6,7 @@ const InternationalRel= ()=> {
     <>
     <body className={sty.body}>
     <link href="https://fonts.googleapis.com/css2?family=Inter&family=Open+Sans&display=swap" rel="stylesheet"/>
-    <div className={sty.div1}>
+    <div className={sty.div_ir}>
       <div><h1 className={sty.heading1}>International  Relations Wing</h1>
       
       </div>
@@ -32,7 +32,7 @@ const InternationalRel= ()=> {
     <div className={styles.content}>
       {/* <h1 className={styles.h1T}>UG/PG Academics</h1> */}
       <p>
-      The International Relations wing shall work along with Office of International Relations (OIR)
+      The International Relations wing shall work along with Office of International Relations 
       </p>
     </div>
   </div>
@@ -58,11 +58,11 @@ const InternationalRel= ()=> {
   </div>
   <div className={styles.container+" "+styles.right}>
     
-    <i className={styles.icon+" "+styles.fa+" "+styles.gather}></i>
+    <i className={styles.icon+" "+styles.fa+" "+styles.mail}></i>
     <div className={styles.content}>
       {/* <h1 className={styles.h1T}>Career Development</h1> */}
       <p>
-      Gathering students opinion on matters of critical importance
+      Provide international research opportunities via mail
       </p>
     </div>
   </div>
@@ -95,7 +95,7 @@ const InternationalRel= ()=> {
       </div>
       <div><p className={sty.para3}>This Guide aims to enable you to traverse the ins and outs of the concept of Applying to an International Graduate School. The Guide is a compilation of the experiences and proficiency of our recent alumni who underwent similar sentiments and doubts and ultimately overcame them in favour of their application. Hence, we promise an objective set of procedures along with a subjective perspective.</p></div>
       {/* <div className={sty.btn+" "+sty.btn_border_to_line}> <button className={sty.btn_border_to_line+" "+ sty.btn_border_to_line}> <svg> <rect x="0" y="0" fill="none" width="100%" height="100%"></rect> </svg> Click me </button> </div> */}
-      <div className={sty.btndiv}><button className={sty.btn4143+" "+sty.btn43} >Complete Guide</button></div>
+      <div className={sty.btndiv}><a href="https://drive.google.com/file/d/1oeSLXFXlEEI8zctiDi3vh6Hc9yvrp65I/view?fbclid=IwAR3MjWFcypZIr8HuNmgo-5BINrh1KBcKAtUnihDGJhTNXg-wv2OBa-q981A"><button className={sty.btn4143+" "+sty.btn43}>Complete Guide</button></a></div>
     </div>
 
 

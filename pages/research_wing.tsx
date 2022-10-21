@@ -6,7 +6,8 @@ const Research= ()=> {
     <>
     <body className={sty.body}>
     <link href="https://fonts.googleapis.com/css2?family=Inter&family=Open+Sans&display=swap" rel="stylesheet"/>
-    <div className={sty.div1}>
+    
+    <div className={sty.div_res}>
     
       <div><h1 className={sty.heading1}>Research Wing</h1>
       
@@ -96,7 +97,7 @@ const Research= ()=> {
       </div>
       <div><p className={sty.para3}>SRC is a unique initiative that aims to foster student-based research and create a platform for young researchers to meet and exchange innovative ideas. Being the first of its kind, SRC envisions in bringing together the best of college students from all around the world to engage in talks, presentations, workshops, and eye-opening discussions in the fields of Science, Technology, Humanities and Management. </p></div>
       {/* <div className={sty.btn+" "+sty.btn_border_to_line}> <button className={sty.btn_border_to_line+" "+ sty.btn_border_to_line}> <svg> <rect x="0" y="0" fill="none" width="100%" height="100%"></rect> </svg> Click me </button> </div> */}
-      <div className={sty.btndiv}><button className={sty.btn4143+" "+sty.btn43} >SRC'22</button></div>
+      <div className={sty.btndiv}><a href="https://www.srciitk.in/"><button className={sty.btn4143+" "+sty.btn43} >SRC'22</button></a></div>
     </div>
 
 

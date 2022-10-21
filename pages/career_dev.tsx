@@ -6,7 +6,7 @@ const CareerDev= ()=> {
     <>
     <body className={sty.body}>
     <link href="https://fonts.googleapis.com/css2?family=Inter&family=Open+Sans&display=swap" rel="stylesheet"/>
-    <div className={sty.div1}>
+    <div className={sty.div_career}>
       <div><h1 className={sty.heading1}>Career Development Wing</h1>
       
       </div>
@@ -28,41 +28,41 @@ const CareerDev= ()=> {
     <div className={styles.timeline}>
   <div className={styles.container+" "+styles.left}>
     
-    <i className={styles.icon+" "+styles.fa+" "+styles.fahome}></i>
+    <i className={styles.icon+" "+styles.fa+" "+styles.career}></i>
     <div className={styles.content}>
       {/* <h1 className={styles.h1T}>UG/PG Academics</h1> */}
       <p>
-      Career Awareness - Conducting sessions for the same.
+      Make students aware of the careers they can pursue by conducting sessions
       </p>
     </div>
   </div>
   <div className={styles.container+" "+styles.right}>
     
-    <i className={styles.icon+" "+styles.fa+" "+styles.fagift}></i>
+    <i className={styles.icon+" "+styles.fa+" "+styles.test}></i>
     <div className={styles.content}>
       {/* <h1 className={styles.h1T}>Research</h1> */}
       <p>
-      Career Preparation tests
+      Conduct mock tests in order to prepare students for placements
       </p>
     </div>
   </div>
   <div className={styles.container+" "+styles.left}>
     
-    <i className={styles.icon+" "+styles.fa+" "+styles.fauser}></i>
+    <i className={styles.icon+" "+styles.fa+" "+styles.counselling}></i>
     <div className={styles.content}>
       {/* <h1 className={styles.h1T}>International Relation</h1> */}
       <p>
-      Career Counselling
+      Organise career counselling sessions with students who require it
       </p>
     </div>
   </div>
   <div className={styles.container+" "+styles.right}>
     
-    <i className={styles.icon+" "+styles.fa+" "+styles.farunning}></i>
+    <i className={styles.icon+" "+styles.fa+" "+styles.mail}></i>
     <div className={styles.content}>
       {/* <h1 className={styles.h1T}>Career Development</h1> */}
       <p>
-      Gathering students opinion on matters of critical importance. Conducting academic orientation sessions
+       Provide some internship and placement opportunities via mail
       </p>
     </div>
   </div>
@@ -90,7 +90,14 @@ const CareerDev= ()=> {
 </div>
     
     </div>
-
+    <div className={sty.div5}>
+      <div><h1 className={sty.heading3}>Resources</h1>
+      
+      </div>
+      <div><p className={sty.para3}>To prepare well for a career, one obviously needs good resources. Here is a link to the resources portal where you can find excellent preparation material for your placements. </p></div>
+      {/* <div className={sty.btn+" "+sty.btn_border_to_line}> <button className={sty.btn_border_to_line+" "+ sty.btn_border_to_line}> <svg> <rect x="0" y="0" fill="none" width="100%" height="100%"></rect> </svg> Click me </button> </div> */}
+      <div className={sty.btndiv}><a href="https://accounts.anciitk.in/login?return_to=https://resources.anciitk.in/home"><button className={sty.btn4143+" "+sty.btn43}>Resources Portal</button></a></div>
+    </div>
 
 
 
