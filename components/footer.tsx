@@ -4,7 +4,7 @@ import App1 from "./form"
 import { useState } from "react";
 var i=0;
 const Footer=()=>{
-  const [form1,setForm]=useState("");
+  const [form1,setForm]=useState("uu");
   const trrr=()=>{
     i++;
     if (i%2===0){

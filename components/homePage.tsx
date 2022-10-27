@@ -2,6 +2,7 @@ import styles from "./HomePage.module.css";
 import Tree from "./tree";
 import { Col, Row ,Card} from 'antd';
 import Footer from "./footer";
+import Qna from "./qna";
 
 const HomePage=()=>{
     return(<><div className={styles.coverH}></div><div className={styles.landingPage}>
@@ -13,6 +14,7 @@ const HomePage=()=>{
     </div>
     
     <Tree></Tree>
+    <Qna></Qna>
     <Footer></Footer>
     </>)
 }

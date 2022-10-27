@@ -8,7 +8,7 @@ const Home: NextPage = () => {
   
     <NavBar></NavBar>
     <HomePage></HomePage>
-    <Qna></Qna>
+    
     
     </>)
 }

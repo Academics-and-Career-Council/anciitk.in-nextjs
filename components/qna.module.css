@@ -20,7 +20,7 @@
 }
 * {box-sizing: inherit;} */
 .coverBox{
-  z-index: 10000;
+  z-index: 1000;
   position: relative;
   top: 91vh;
   width: 100vw;

@@ -21,7 +21,7 @@
     display: flex;
     position: relative;
 
-    bottom: -200vh;
+    top: 41vh;
     left : calc(100vw - 316px);
     justify-content: center;
     align-items: center;
@@ -34,21 +34,32 @@
     /* position: absolute;
     bottom: -979px; */
     position: relative;
-    bottom: -200vh;
+    top: 41vh;
     
     display: flex;
     justify-content: flex-end;
     align-items: center;
-    z-index: 30;
+    z-index: 1002;
 }
 .formuu{
-    width: 50vw;
-    height: 50vh;
-    background-color: blue;
+    
+    
+    z-index: 30000;
+    width: 316px;
     opacity: 0;
-    position: absolute;
-    bottom: -61px;
-    right: 0px;
+    height: 50vh;
+    background-color:rgb(129, 127, 127);
+    
+    margin-right: 20px;
+    border-radius: 16px;
+    display: flex;
+    position: relative;
+
+    top: 41vh;
+    left : calc(100vw - 316px);
+    justify-content: center;
+    align-items: center;
+    color: blue !important;
 }
 
 .buttonMenu1{
