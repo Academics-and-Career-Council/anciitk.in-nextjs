@@ -1,0 +1,338 @@
+.profileCard {
+  position: relative;
+  overflow: hidden;
+  margin-bottom: 10px;
+  width: 90%;
+  max-width: 340px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.profileCard .profileImg img {
+  width: 90%;
+  height: auto;
+  max-width: 340px;
+  border-radius: 5% 25%;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.bigCard {
+  width: auto;
+  height: auto;
+  border-radius: 5% 25%;
+  margin-left: auto;
+  margin-right: auto;
+  background-color: #fff;
+}
+
+.profileCard:hover .profileContent::before {
+  transition: all 0.5s linear;
+  /* border-radius: 15px 10px;
+  border: 3px solid #222;
+  border-right: 0px solid transparent;
+  border-bottom: 0px solid transparent; */
+}
+
+.profileCard .profileContent::before {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 30%;
+  height: auto;
+  transform: scale(1, 1);
+  transition: all 0.5s linear;
+  font-size: 1000%;
+}
+/* .profileCard:hover .profileContent::after {
+  transition: all 0.5s linear;
+  border-radius: 5% 3%;
+  border: 3px solid #222;
+  border-left: 0px solid transparent;
+  border-top: 0px solid transparent;
+  z-index: -1;
+} */
+/* .profileCard .profileContent::after {
+  content: "";
+  position: absolute;
+  bottom: 0;
+  right: 0;
+  width: 50%;
+  height: 40%;
+} */
+.profileCard:hover .profileContent:before {
+  top: 20px;
+  left: 20px;
+}
+.profileCard:hover .profileContent:after {
+  bottom: 20px;
+  right: 20px;
+  /*background-color: rgba(255,255,255,0.4);*/
+}
+.profileCard .profileContent::after {
+  content: "";
+  position: absolute;
+  bottom: 0;
+  right: 0;
+  width: 50%;
+  height: 40%;
+  transform: scale(1, 1);
+  transition: all 5s linear;
+  z-index: -1;
+  font-size: 100%;
+}
+.profileCard:hover .profileContent {
+  background-color: rgba(0, 0, 0, 0.7);
+  color: #fff;
+}
+/*.profileCard .profileContent::after{
+    *    background-color: rgba(255,255,255,0.5);
+    *}*/
+.profileCard .profileContent {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  padding: 25% 4%;
+  text-align: center;
+  border-radius: 5% 25%;
+  border: 0px;
+  font-size: 100%;
+}
+.profileCard .profileContent .title {
+  font-size: 100%;
+  color: white;
+  opacity: 0;
+  letter-spacing: 0px;
+  text-transform: lowercase;
+  transform: translateX(-100px);
+  transition: all 900ms cubic-bezier(0.68, -0.55, 0.265, 1.55) 0.05s;
+}
+.profileCard:hover .title {
+  opacity: 1;
+  transform: translateX(0);
+  font-size: 100%;
+}
+
+.profileCard:hover .title::after {
+  content: "";
+  display: block;
+  width: 50%;
+  margin: 10px auto;
+  /* border-bottom: 2px solid #fff; */
+}
+.profileCard .profileContent .title > span {
+  display: block;
+  margin: 5px 0;
+  font-size: 90%;
+  text-transform: capitalize;
+}
+.profileCard .profileContent .socialLink {
+  margin: 20px 0;
+  padding: 0;
+  opacity: 0;
+  transform: translateY(100px);
+  transition: all 500ms cubic-bezier(0.68, -0.55, 0.265, 1.55) 0.2s;
+}
+.profileCard:hover .socialLink {
+  opacity: 1;
+  transform: translateY(0);
+}
+.profileCard .profileContent .socialLink li {
+  display: inline-block;
+  list-style: none;
+  margin: 0 4px;
+}
+.profileCard .profileContent .socialLink li a {
+  color: #333;
+  width: 30px;
+  height: 25px;
+  line-height: 24px;
+  text-align: center;
+  border-radius: 5px;
+  background-color: #fff;
+}
+.js .animateThis,
+.js .animateIntro {
+  opacity: 0;
+}
+
+.oldie .animateThis,
+.oldie .animateIntro .noCssanimations .animateThis,
+.noCssanimations .animateIntro {
+  opacity: 1;
+}
+
+.lineHeight2 {
+  font-size: 110%;
+  line-height: 1.2 !important;
+  text-align: center;
+}
+
+.lineHeight1 {
+  line-height: 1.1 !important;
+}
+
+
+.imageStyle {
+  height: "24rem";
+  width: "24.5rem";
+  object-fit: "cover";
+}
+
+/* Outer Div */
+
+#services .servicesList {
+  margin-top: 1.2rem;
+  text-align: center;
+}
+#services .servicesList .serviceItem {
+  margin-bottom: 3rem;
+  padding: 0 50px;
+}
+#services .servicesList .serviceItem p {
+  color: rgba(242, 242, 242, 0.5);
+}
+#services .servicesList .icon {
+  display: inline-block;
+  margin-bottom: 1.5rem;
+}
+#services .servicesList .icon i {
+  font-size: 5.4rem;
+  color: #f9a828;
+}
+#services .servicesList .h05 {
+  font-size: 1.7rem;
+  line-height: 1.765;
+  color: #ffffff;
+  margin-bottom: 3rem;
+}
+
+#services .events-desc {
+  text-align: justify;
+}
+
+/* ------------------------------------------------------------------- 
+   * responsive:
+   * services
+   * ------------------------------------------------------------------- */
+@media only screen and (max-width: 1024px) {
+  #services .servicesList .serviceItem {
+    padding: 0 40px;
+  }
+}
+
+
+@media only screen and (max-width: 900px) {
+  #services .servicesList .serviceItem {
+    padding: 0 30px;
+  }
+}
+@media only screen and (max-width: 768px) {
+  #services {
+    padding: 12rem 0 12rem;
+  }
+  #services .servicesContent {
+    max-width: 550px;
+  }
+  #services .servicesList .serviceItem {
+    padding: 0 15px;
+  }
+  #services .servicesList .icon i {
+    font-size: 100%;
+  }
+}
+@media only screen and (max-width: 600px) {
+  #services .servicesList .serviceItem {
+    padding: 0 10px;
+    text-align: center;
+  }
+  #services .servicesList .icon i {
+    font-size: 100%;
+    text-align: center;
+  }
+}
+@media only screen and (max-width: 400px) {
+  #services .servicesList .serviceItem {
+    padding: 0;
+  }
+}
+
+@media screen and (min-width: 769px) {
+  .offset_16 {
+    padding-left: 16.6667%;
+    padding-right: 16.6667%;
+  }
+}
+
+.block12 .bgrid {
+  width: 50%;
+}
+
+/**
+   * Clearing for block grid columns. Allow columns with 
+   * different heights to align properly.
+   */
+.block-1-6 .bgrid:nth-child(6n + 1),
+.block-1-4 .bgrid:nth-child(4n + 1),
+.block-1-3 .bgrid:nth-child(3n + 1),
+.block12 .bgrid:nth-child(2n + 1) {
+  clear: both;
+}
+
+.blockTabFull .bgrid {
+  width: 100%;
+  clear: both;
+}
+
+.group:before,
+.group:after {
+  content: "";
+  display: table;
+}
+.group:after {
+  clear: both;
+}
+
+
+/* icons */
+
+/* .fa-facebook:before {
+  content: "\f09a";
+}
+
+.fa-facebook-f:before {
+  content: "\f39e";
+}
+
+.fa-facebook-messenger:before {
+  content: "\f39f";
+}
+
+.fa-facebook-square:before {
+  content: "\f082";
+}
+
+.fa-linkedin:before {
+  content: "\f08c";
+}
+
+.fa-linkedin-in:before {
+  content: "\f0e1";
+}
+
+.fa-linkedin-square:before {
+  content: "\f08c";
+}
+
+.fa-linkedin:before {
+  content: "\f0e1";
+} */
+
+.icons{
+  background: none;
+  background-color: transparent;
+}
+

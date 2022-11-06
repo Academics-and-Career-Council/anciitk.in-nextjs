@@ -1,0 +1,91 @@
+.boxer {
+  background-color: none;
+  background-image: url('https://raw.githubusercontent.com/Academics-and-Career-Council/anciitk.in-nextjs/abhinav/public/image/bg.jpg') !important ;
+}
+
+.container {
+    display: flex;
+    flex-flow: row;
+    flex-wrap: wrap;
+    justify-content: center;
+    background-image: url('../public/image/bg.jpg');
+    padding-bottom: 120px;
+    padding-top: 50px;
+}
+
+.subcontainer {
+    margin: 5px;
+}
+
+@media only screen and (min-width: 1024px) {
+    .subcontainer {
+        width: 25%;
+        margin-top: 50px;
+        margin-bottom: 20px;
+        margin-left: 0px;
+        margin-right: 0px;
+    }
+  }
+
+  @media only screen and (max-width: 1024px) {
+    .subcontainer {
+        width: 25%;
+        margin-top: 50px;
+        margin-bottom: 20px;
+        margin-left: 0px;
+        margin-right: 0px;
+    }
+  }
+
+  @media only screen and (max-width: 900px) {
+    .subcontainer {
+        width: 50%;
+        margin-top: 50px;
+        margin-bottom: 20px;
+        margin-left: 0px;
+        margin-right: 0px;
+    }
+  }
+
+  @media only screen and (max-width: 600px) {
+    .subcontainer{
+        width: 75%;
+        margin-top: 25px;
+        margin-bottom: 10px;
+        margin-left: 0px;
+        margin-right: 0px;
+    }
+  }
+
+  @media only screen and (max-width: 400px) {
+    .subcontainer{
+        width: 100%;
+        margin-top: 25px;
+        margin-bottom: 10px;
+        margin-left: 0px;
+        margin-right: 0px;
+    }
+  }
+
+  .radioG {
+    bottom: 0;
+    position: fixed;
+   display: flex;
+     flex-flow: row;
+    flex-wrap: wrap;
+    justify-content: center; 
+    width: 100%;
+    /* border: none; */
+    /* bottom:0, position:'fixed', display: 'flex',flexFlow: 'row', flexWrap: 'wrap', justifyContent:"center", width:"100%" */
+  }
+
+  .radioB {
+    text-align: center;
+    overflow:visible;
+    min-width: 140px;
+  }
+
+  .radioG .radioB {
+    -ms-flex: 1;  /* IE 10 */  
+    flex: 1;
+  }
