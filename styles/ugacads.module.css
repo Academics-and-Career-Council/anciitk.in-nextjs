@@ -1,0 +1,367 @@
+
+
+.body{
+    text-align: center;
+    font-family: 'Open Sans', sans-serif;
+    /* background-image: url("../image/background.jpg");
+    background-repeat: no-repeat;
+    background-size: 100%;
+    background-attachment: fixed; */
+
+  }
+
+
+
+ 
+
+.heading1{
+    display: block;
+    margin: 0% auto 0% auto;
+    padding-top: 18%;
+    padding-bottom: 2%;
+    font-size: 350%;
+    text-decoration: solid;
+    color: antiquewhite;
+    font-weight: 570;
+    
+
+}
+
+.div_acads{ 
+    
+  background-image: url("../image/acads_back.svg"); 
+     background-repeat: no-repeat;
+    width: 100%;
+    height: auto;
+    background-attachment: fixed;
+    background-position: center;
+      
+ }
+ .div_res{ 
+    
+  background-image: url("../image/research_back.jpg"); 
+     background-repeat: no-repeat;
+    width: 100%;
+    height: auto;
+    background-attachment: fixed;
+    background-position: center;
+      
+ }
+
+ .div_ir{ 
+    
+  background-image: url("../image/ir_back.svg"); 
+     background-repeat: no-repeat;
+    width: 100%;
+    height: auto;
+    background-attachment: fixed;
+    background-position: center;
+      
+ }
+ .div_career{ 
+    
+  background-image: url("../image/career_back.svg"); 
+     background-repeat: no-repeat;
+    width: 100%;
+    height: auto;
+    background-attachment: fixed;
+    background-position: center;
+      
+ }
+.para1{
+    margin: 0% 25% 0 25%;
+    font-size: 130%;
+    padding-bottom: 21%;
+    width: 50%;
+    color: #9cacb6;
+}
+
+.heading2{
+    display: inline-block;
+    margin: 4% auto 1% 0;
+    /* padding-top: 5%; */
+    font-size: 350%;
+    font-weight: bold;
+    color: black;
+    text-decoration: underline 5px;
+    text-underline-offset: 15px;
+    font-family: 'Open Sans', sans-serif;
+    
+}
+ 
+.div2{
+   /* background-image: url("../image/layered-peaks-haikei.svg");
+  background-repeat: no-repeat;  */
+   /* background: linear-gradient(180deg, #FFB7B7 0%, #727272 100%), radial-gradient(60.91% 100% at 50% 0%, #FFD1D1 0%, #260000 100%), linear-gradient(238.72deg, #FFDDDD 0%, #720066 100%), linear-gradient(127.43deg, #00FFFF 0%, #FF4444 100%), radial-gradient(100.22% 100% at 70.57% 0%, #FF0000 0%, #00FFE0 100%), linear-gradient(127.43deg, #B7D500 0%, #3300FF 100%);
+  background-blend-mode: screen, overlay, hard-light, color-burn, color-dodge, normal;  */
+  /* background-image: linear-gradient(to right top, #d5fbc2, #bbf8d4, #acf3e5, #aaebef, #b2e2f2); */
+  background-image: linear-gradient(to right bottom, #e6fcdc, #d9fce7, #d2fbf2, #d2f9fb, #d7f5ff);
+
+  
+  
+  width: auto;
+  height: 100%;
+  
+
+
+
+  font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+  padding-bottom: 5%;
+  padding-top: 8%;
+
+}  
+
+
+
+
+.obj{
+  width: 70%;
+  height: auto;
+  margin-left: 15%;
+  /* background-image: url("../image/cool-background.png"); */
+  border-radius: 100px;
+  box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+  background-image: linear-gradient(to right bottom, #e6fcdc, #d9fce7, #d2fbf2, #d2f9fb, #d7f5ff);
+}
+
+.boxes{
+  text-align: center;
+  background-color: #ffffff;
+  margin-left: 10%;
+  margin-right: 10%;
+  padding: 2%;
+  font-family: 'Open Sans', sans-serif;
+  font-size: 80%;
+  border-radius: 30px;
+
+}
+
+
+.space{
+  background-color: rgb(60, 64, 72);
+  width: 70%;
+  height: auto;
+  margin-left: 15%;
+  /* background-image: url("../image/cool-background.png"); */
+  border-radius: 100px;
+  box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+
+  padding-bottom: 10%;
+}
+.element{
+  
+  display: inline;
+  margin-left: 45px;
+  margin-right: 45px;
+  margin-top:30px;
+  color:white;
+  margin-bottom:30px;
+  font-size:25px;
+  border-radius:3px;
+  border-color: rgb(127, 187, 255);
+  padding-top:5px;padding-right: 45px;padding-bottom:45px;padding-left: 45px;
+  background-color:'blue';
+  background-color:  rgb(127, 187, 255);
+
+}
+.element:hover{
+  transform: scale(1.1);
+  background-color: rgb(127, 187, 255);
+  border-color: rgb(127, 187, 255);
+  color:#F96666;
+}
+.layer{
+  background: #232526;  /* fallback for old browsers */
+background: -webkit-linear-gradient(to right, #414345, #232526);  /* Chrome 10-25, Safari 5.1-6 */
+background: linear-gradient(to right, #414345, #232526); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+
+
+
+  text-align: center;
+  /* border-radius: 30px; */
+  align-items:center;
+  /* position:absolute; */
+  display:inline-block;
+  align-self: center; 
+  padding-bottom: 8%;
+  padding-top: 5%;
+  width: 100%;
+  /* top:200%;bottom:auto;
+  left:10%;right:10%;
+  height:80%;
+  width:80%; */
+}
+/* .layer{
+background-image: url("../image/layered-waves-haikei.svg");
+width: 100%;
+height: auto;
+background-repeat: no-repeat;
+
+opacity: 1;
+text-align: center;
+
+align-items:center;
+ position:absolute; 
+ align-self: center; 
+padding-bottom: 40%; 
+ top:10%;bottom:10%;
+left:10%;right:10%;
+height:80%;
+width:80%; 
+} */
+.text{
+  position: relative;
+  display: inline;
+  top:35px;bottom: auto;
+  font-weight: 600;
+  color: #ffffff;
+  text-align: center;
+  font-size: 52px;
+  font-family: 'Open Sans', sans-serif;
+  /* align */
+}
+.hr{
+  width: 17%;
+  height: 3px;border-radius: 1px;
+  margin-top:28px;
+  margin-bottom: 13px;
+  background-color: #c0c6ff;
+  border:none;
+}
+.comp{
+  display: inline;
+  /* margin-left:25px; */
+  /* margin-left:20px;
+  margin-right:20px; */
+}
+.drop{
+
+}
+.anchor{
+  font-size: 1px;
+}
+.tttt{
+  
+  font-stretch: 1000%;
+}
+.text2{
+  font-size: 25px;
+  font-family: 'Open Sans', sans-serif;
+  color: #ffffff;
+  /* padding:365px auto auto 20px;
+   */
+  margin-top: 30px;
+  margin-bottom: 35px;
+  padding-left: 10%;
+  padding-right: 10%;
+  font-stretch: ultra-expanded;
+}  
+
+@media (max-width: 767.98px){
+.layer{
+  height:120%;
+  width:auto;
+}
+}
+
+.div3{
+  background: #0F2027;  /* fallback for old browsers */
+background: -webkit-linear-gradient(to right, #2C5364, #203A43, #0F2027);  /* Chrome 10-25, Safari 5.1-6 */
+background: linear-gradient(to right, #2C5364, #203A43, #0F2027); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+
+
+}
+/* .btn {
+    font-family: Arial, Helvetica, sans-serif;  text-transform: uppercase;
+}  
+.btn:hover .btn-slide-show-text1 {  
+  margin-left: 65px;
+}  
+.btn_border_to_line {  
+  transition-property: all;  transition-duration: 0.6s;  transition-timing-function: ease;
+  
+}   */
+.heading3{
+  display: block;
+    margin: 0% auto 0% auto;
+    padding-top: 12%;
+    padding-bottom: 2%;
+    font-size: 350%;
+    text-decoration: solid;
+    color: antiquewhite;
+}
+
+.para3{
+  margin: 0% 25% 0 25%;
+  font-size: 130%;
+  padding-bottom: 4%;
+  width: 50%;
+  color: #9cacb6;
+}
+
+.btndiv{
+  padding-bottom: 10%;
+}
+
+
+.btn4143 {
+  padding: 10px 25px;
+  font-family: "Open sans", sans-serif;
+  font-weight: 500;
+  background: transparent;
+  outline: none !important;
+  cursor: pointer;
+  transition: all 0.3s ease;
+  position: relative;
+  display: inline-block;
+}
+
+.btn43 {
+  border: 2px solid rgb(255, 255, 255);
+  z-index: 1;
+  color: white;
+}
+
+.btn43:after {
+  position: absolute;
+  content: "";
+  width: 100%;
+  height: 0;
+  top: 0;
+  left: 0;
+  z-index: -1;
+  background: rgb(255, 255, 255);
+  transition: all 0.3s ease;
+}
+
+.btn43:hover {
+  color: rgb(0, 0, 0);
+}
+
+.btn43:hover:after {
+  top: auto;
+  bottom: 0;
+  height: 100%;
+}
+
+.div4{
+  background: #000000;  /* fallback for old browsers */
+background: -webkit-linear-gradient(to right, #434343, #000000);  /* Chrome 10-25, Safari 5.1-6 */
+background: linear-gradient(to right, #434343, #000000); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+
+}
+
+.div5{
+  background: #141E30;  /* fallback for old browsers */
+  background: -webkit-linear-gradient(to right, #243B55, #141E30);  /* Chrome 10-25, Safari 5.1-6 */
+  background: linear-gradient(to right, #243B55, #141E30); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+  
+
+}
+
+@media (max-width: 767.98px) {
+     .div2{
+       /* background-image: url("../image/layered-peaks-haikei_mob.svg"); */
+     }
+
+} 
